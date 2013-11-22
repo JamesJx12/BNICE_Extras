@@ -1,0 +1,42 @@
+Name:    4.1.1.s   
+Reactant_description:    
+0    Any    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    C* W    
+1    0    1    C* W    
+2    0    1    C* W    
+3    0    1    C* W    
+4    0    1    -OH W    
+5    0    1    -H 0    
+6    0    1    =O 0    
+7    0    1    -OH 0    
+8    0    1    -H 0    
+9    0    2    -OH 0    -H 0    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    
+0    0    1    0    0    0    0    0    0    0    0    
+1    1    0    2    0    0    0    0    1    0    0    
+2    0    2    0    1    0    0    0    0    0    1    
+3    0    0    1    0    1    0    2    0    0    0    
+4    0    0    0    1    0    1    0    0    0    0    
+5    0    0    0    0    1    1    0    0    0    0    
+6    0    0    0    2    0    0    0    0    0    0    
+7    0    1    0    0    0    0    0    0    1    0    
+8    0    0    0    0    0    0    0    1    0    0    
+9    0    0    1    0    0    0    0    0    0    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    
+0    0    0    0    0    0    0    0    0    0    0    
+1    0    0    -1    0    0    0    0    1    0    0    
+2    0    -1    0    -1    0    1    0    0    1    0    
+3    0    0    -1    0    1    0    0    0    0    0    
+4    0    0    0    1    0    -1    0    0    0    0    
+5    0    0    1    0    -1    -1    0    0    0    0    
+6    0    0    0    0    0    0    0    0    0    0    
+7    0    1    0    0    0    0    0    0    -1    0    
+8    0    0    1    0    0    0    0    -1    0    0    
+9    0    0    0    0    0    0    0    0    0    0    
+Products:    
+Any    CO2    
+Comments:    

@@ -1,0 +1,32 @@
+Name:    2.3.1.h    
+Reactant_description:    
+0    Any    
+1    Coa    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    =O 0    
+1    0    2    >C= W    >C= 0
+2    0    2    -CH3 0    -CH2- W
+3    0    2    -S- W    >C= 0    
+4    1    1    -H 0    
+5    1    1    -SH W    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    
+0    0    2    0    0    0    0    
+1    2    0    1    1    0    0    
+2    0    1    0    0    0    0    
+3    0    1    0    0    0    0    
+4    0    0    0    0    0    1    
+5    0    0    0    0    1    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    
+0    0    0    0    0    0    0    
+1    0    0    0    -1    0    1    
+2    0    0    0    0    0    0    
+3    0    -1    0    0    1    0    
+4    0    0    0    1    0    -1    
+5    0    1    0    0    -1    0    
+Reverse_Operator:    2.3.-1.h    
+Products:    
+Any    Any    
+Comments:    

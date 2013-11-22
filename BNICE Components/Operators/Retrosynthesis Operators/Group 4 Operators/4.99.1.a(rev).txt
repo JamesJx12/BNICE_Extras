@@ -1,0 +1,26 @@
+Name: 4.99.1.a(rev)
+Reactant_description:
+0	Any
+1	Water
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	2	#C- 0	#CH 0
+1	0	3	#CH 0	#C- 0	#N 0
+2	1	1	H- 0
+3	1	1	OH2 0
+4	1	1	H- 0
+Site_bond_electron_matrix:
+0	0	1	2	3	4
+0	0	3	0	0	0
+1	3	0	0	0	0
+2	0	0	0	1	0
+3	0	0	1	0	1
+4	0	0	0	1	0
+Operator_matrix:
+0	0	1	2	3	4
+0	0	-1	1	0	0
+1	-1	0	0	1	0
+2	1	0	0	-1	0
+3	0	1	-1	0	0
+4	0	0	0	0	0
+Reverse_Operator:	4.99.1.a

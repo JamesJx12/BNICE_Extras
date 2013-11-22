@@ -1,0 +1,46 @@
+Name:    6.4.1.c    
+Reactant_description:    
+0    Bicarbonate    
+1    Any    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    >C= 0    
+1    0    1    -OH 0    
+2    1    1    ->P= 0    
+3    1    1    -O- 0    
+4    1    1    >C= W  
+5    1    2    >C= W    -CH= W    
+6    1    2    >C= W    -CH= W    
+7    1    2    >C= W    -CH= W    
+8    1    1    -H 0    
+9    1    2    >C= W    -CH= W    
+10    1    2    >C= W    -CH= W    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    
+0    0    1    0    0    0    0    0    0    0    0    0    
+1    1    0    0    0    0    0    0    0    0    0    0    
+2    0    0    0    1    0    0    0    0    0    0    0    
+3    0    0    1    0    1    0    0    0    0    0    0    
+4    0    0    0    1    0    2    0    0    0    0    1    
+5    0    0    0    0    2    0    1    0    0    0    0    
+6    0    0    0    0    0    1    0    2    0    0    0    
+7    0    0    0    0    0    0    2    0    1    1    0    
+8    0    0    0    0    0    0    0    1    0    0    0    
+9    0    0    0    0    0    0    0    1    0    0    2    
+10    0    0    0    0    1    0    0    0    0    2    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    
+0    0    -1    0    0    0    0    0    1    0    0    0    
+1    -1    0    0    0    1    0    0    0    0    0    0    
+2    0    0    0    0    0    0    0    0    0    0    0    
+3    0    0    0    0    -1    0    0    0    1    0    0    
+4    0    1    0    -1    0    0    0    0    0    0    0    
+5    0    0    0    0    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    0    0    0    0    
+7    1    0    0    0    0    0    0    0    -1    0    0    
+8    0    0    0    1    0    0    0    -1    0    0    0    
+9    0    0    0    0    0    0    0    0    0    0    0    
+10    0    0    0    0    0    0    0    0    0    0    0    
+Products:    
+Any    Any    
+Comments:    

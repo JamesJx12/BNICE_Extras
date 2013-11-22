@@ -1,0 +1,10 @@
+Index;Abbrevation;Name;pH;Max concentration;Min concentration;DeltaPsiCoef;DeltaPsiConst;default?
+0;e;extracellular;7.5;0.02;0.00001;-33.33;143.33;0
+1;c;cytosol;7;0.02;0.0000001;0;0;1
+2;p;periplasm;7.5;0.02;0.00001;-33.33;143.33;0
+3;n;nucleus;7;0.02;0.00001;0;0;0
+4;m;mitochondrion;7;0.02;0.00001;0;0;0
+5;x;peroxisomal;7;0.02;0.00001;0;0;0
+6;g;golgi apparatus;7;0.02;0.00001;0;0;0
+7;r;endoplasmic reticulum;7;0.02;0.00001;0;0;0
+8;v;vacuole;7;0.02;0.00001;0;0;0

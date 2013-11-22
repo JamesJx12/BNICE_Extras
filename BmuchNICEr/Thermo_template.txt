@@ -1,0 +1,50 @@
+molfiles|../Output/
+adjust for O2 oxidation|1
+check kegg for compounds|1
+ByEntry|1
+Data to print in reaction|entry
+group list filename|StructuralCueData/FinalGroups.dat
+structure cue datafile|StructuralCueData/FinalGroupData-MSBPublication.dat
+output folder|THERMO/Thymidine_Thermo/
+print database HTML|0
+compound header|INPUT_HEADER;STRUCTURAL_CUES;ENERGY;ERROR
+reaction header|INPUT_HEADER;STRUCTURAL_CUES;ENERGY;ERROR;MMDELTAG;MINDELTAG;MAXDELTAG;No_O2_ENERGY;ERROR_O2;MINDELTAG_O2;MAXDELTAG_O2;Reduction_ENERGY
+operator header|INPUT_HEADER
+calculate string code|0
+read compound stuctures|1
+label atoms with groups|1
+calculate properties from groups|1
+read in structural cue datfiles|1
+calculate group change|1
+balance reactions|1
+pKa filename|./Input/pKa.txt
+print all output necessary for fitting|0
+fitting output folder|Fitting/
+Use new ring classification scheme|1
+Count conjugates|1
+Count vicinal Cl|1
+Count vicinal Cl distinct neighbors|0
+print experimental energies and estimated energies|0
+print experimental thermo data|0
+Max metabolite concentration|0.02
+Min metabolite concentration|0.00001
+Max external metabolite concentration|0.1
+Min external metabolite concentration|0.00001
+Max external pH|7.5
+Min external pH|6.5
+Temperature|298
+pH|7
+print mM delta G|1
+Use molecule charge specified in file|1
+automatically add electrons|1
+automatically add H|1
+use benson method|1
+benson header|ENTRY;FILENAME;NAME;FORMULA;CHARGE;ENERGY;MW;STRINGCODE;COFACTOR;DATABASE_LINKS
+get pathway data|1
+cumulative data header|PATHWAY;NAME;ENERGY;ERROR;STRUCTURAL_CUES;MMDELTAG;MINDELTAG;MAXDELTAG
+calculate cumulative error|0
+use reduction potentials|0
+reduction potential file|./Systems/reduction files/
+reduction potential rxns|Ferredoxin;1;2;2;9.117602
+print dat|0
+print mol|0

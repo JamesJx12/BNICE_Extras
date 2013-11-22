@@ -1,0 +1,42 @@
+Name:    1.14.15.a    
+Reactant_description:    
+0    H+    
+1    H+    
+2    O2    
+3    Any    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    H 0    
+1    1    1    H 0    
+2    2    1    =O 0    
+3    2    1    =O 0    
+4    3    2    >CH2 N9;F9;69;59;49    >CH- N9;F9;69;59;49    
+5    3    1    -H 0    
+6    3    1    C* W    
+7    3    1    C* W    
+8    3    2    C* W    -H 0    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    
+0    0    0    0    0    0    0    0    0    0    
+1    0    0    0    0    0    0    0    0    0    
+2    0    0    0    2    0    0    0    0    0    
+3    0    0    2    0    0    0    0    0    0    
+4    0    0    0    0    0    1    1    1    1    
+5    0    0    0    0    1    0    0    0    0    
+6    0    0    0    0    1    0    0    0    0    
+7    0    0    0    0    1    0    0    0    0    
+8    0    0    0    0    1    0    0    0    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    
+0    0    0    0    1    0    0    0    0    0    
+1    0    0    0    1    0    0    0    0    0    
+2    0    0    0    -2    1    1    0    0    0    
+3    1    1    -2    0    0    0    0    0    0    
+4    0    0    1    0    0    -1    0    0    0    
+5    0    0    1    0    -1    0    0    0    0    
+6    0    0    0    0    0    0    0    0    0    
+7    0    0    0    0    0    0    0    0    0    
+8    0    0    0    0    0    0    0    0    0    
+Products:    
+Water    Any    
+Comments: 6,7 must be in a ring of some form.   

@@ -1,0 +1,26 @@
+Name: 4.1.2.c(rev)
+Reactant_description:
+0	Any
+1	Any
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	3	CH--- W	CH2-- W	CH3- 0
+1	0	1	NH2- 0
+2	0	1	H- 0
+3	1	3	=C-- W	=CH- W	=CH2 0
+4	1	1	=O 0
+Site_bond_electron_matrix:
+0	0	1	2	3	4
+0	0	1	1	0	0
+1	1	0	0	0	0
+2	1	0	0	0	0
+3	0	0	0	0	2
+4	0	0	0	2	0
+Operator_matrix:
+0	0	1	2	3	4
+0	0	0	-1	1	0
+1	0	0	0	0	0
+2	-1	0	0	0	1
+3	1	0	0	0	-1
+4	0	0	1	-1	0
+Reverse_Operator:	4.1.2.c

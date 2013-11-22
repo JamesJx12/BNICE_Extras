@@ -1,0 +1,44 @@
+Name: 2.3.1.e(rev)
+Reactant_description:
+0	5-Formyl-H4MPT
+1	Any
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	1	=O 0
+1	0	1	=C-- W
+2	0	1	=C-- W
+3	0	1	N--- W
+4	0	1	CH--- W
+5	0	1	H- 0
+6	0	1	=CH- 0
+7	0	1	=O 0
+8	1	1	H- 0
+9	1	1	NH2- 0
+10	1	1	*C W
+Site_bond_electron_matrix:
+0	0	1	2	3	4	5	6	7	8	9	10
+0	0	2	0	0	0	0	0	0	0	0	0
+1	2	0	1	0	0	0	0	0	0	0	0
+2	0	1	0	1	0	0	0	0	0	0	0
+3	0	0	1	0	1	0	1	0	0	0	0
+4	0	0	0	1	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	1	0	0	0	0
+6	0	0	0	1	0	1	0	2	0	0	0
+7	0	0	0	0	0	0	2	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	1	0
+9	0	0	0	0	0	0	0	0	1	0	1
+10	0	0	0	0	0	0	0	0	0	1	0
+Operator_matrix:
+0	0	1	2	3	4	5	6	7	8	9	10
+0	0	0	0	0	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	-1	0	1	0	0
+4	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	0	-1	0	0	0	0	0	1	0
+7	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	1	0	0	0	0	0	-1	0
+9	0	0	0	0	0	0	1	0	-1	0	0
+10	0	0	0	0	0	0	0	0	0	0	0
+Reverse_Operator:	2.3.1.e

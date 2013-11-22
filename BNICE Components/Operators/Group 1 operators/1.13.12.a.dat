@@ -1,0 +1,60 @@
+Name:    1.13.12.a    
+Reactant_description:    
+0    H+    
+1    NADH    
+2    O2    
+3    Any    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    H 0    
+1    1    1    >N- W    
+2    1    1    -CH= W    
+3    1    1    -CH= W    
+4    1    1    -CH2- W    
+5    1    1    -H 0    
+6    2    1    =O 0    
+7    2    1    =O 0    
+8    3    1    C* W    
+9    3    1    N* W    
+10    3    1    C* W    
+11    3    2    C* W    -H 0    
+12    3    2    C* W    -H 0    
+13    3    1    -H 0    
+14    3    1    C* W    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    11    12    13    14    
+0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    
+2    0    1    0    2    0    0    0    0    0    0    0    0    0    0    0    
+3    0    0    2    0    1    0    0    0    0    0    0    0    0    0    0    
+4    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+5    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    
+7    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+8    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+9    0    0    0    0    0    0    0    0    1    0    1    0    0    0    1    
+10    0    0    0    0    0    0    0    0    0    1    0    1    1    1    0    
+11    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+12    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+13    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+14    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    11    12    13    14    
+0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    
+1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    
+2    0    1    0    -1    0    0    0    0    0    0    0    0    0    0    0    
+3    0    0    -1    0    1    0    0    0    0    0    0    0    0    0    0    
+4    0    0    0    1    0    -1    0    0    0    0    0    0    0    0    0    
+5    0    0    0    0    -1    0    0    1    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    -2    0    0    2    0    0    0    0    
+7    1    0    0    0    0    1    -2    0    0    0    0    0    0    0    0    
+8    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+9    0    0    0    0    0    0    0    0    0    0    -1    0    0    1    0    
+10    0    0    0    0    0    0    2    0    0    -1    0    0    0    -1    0    
+11    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+12    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+13    0    0    0    0    0    0    0    0    0    1    -1    0    0    0    0    
+14    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Products:    
+NAD+    Water    Any    Any
+Comments:Changed by Andrew Stine on 8/14/2012, atom 9 changed from being able to be a carbon or a nitrogen to having to be a nitrogen. This was to better reflect real reactions.  

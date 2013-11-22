@@ -1,0 +1,23 @@
+Name: 1.97.1.c(rev)
+Reactant_description:
+0	Water
+1	Any
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	1	H- 0
+1	0	1	H- 0
+2	0	1	OH2 0
+3	1	3	As--- 0	==Cl- 0	=Cl- 0
+Site_bond_electron_matrix:
+0	0	1	2	3
+0	0	0	1	0
+1	0	0	1	0
+2	1	1	0	0
+3	0	0	0	0
+Operator_matrix:
+0	0	1	2	3
+0	0	0	-1	0
+1	0	0	-1	0
+2	-1	-1	0	2
+3	0	0	2	0
+Reverse_Operator:	1.97.1.c

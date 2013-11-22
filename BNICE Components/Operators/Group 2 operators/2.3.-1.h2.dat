@@ -1,0 +1,35 @@
+Name:    2.3.-1.h2    
+Reactant_description:    
+0    Any,COA,ON    
+1    Pi    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    =O 0    
+1    0    1    >C= W    
+2    0    2    -CH3 0    -CH2- W    
+3    0    1    -S- W    
+4    1    1    -H 0    
+5    1    1    -OH 0    
+6    1    1    >-P= 0    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    
+0    0    2    0    0    0    0    0    
+1    2    0    1    1    0    0    0    
+2    0    1    0    0    0    0    0    
+3    0    1    0    0    0    0    0    
+4    0    0    0    0    0    1    0    
+5    0    0    0    0    1    0    1    
+6    0    0    0    0    0    1    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    
+0    0    0    0    0    0    0    0    
+1    0    0    0    -1    0    1    0    
+2    0    0    0    0    0    0    0    
+3    0    -1    0    0    1    0    0    
+4    0    0    0    1    0    -1    0    
+5    0    1    0    0    -1    0    0    
+6    0    0    0    0    0    0    0    
+Reverse_Operator:    2.3.-1.h2    
+Products:    
+Any    Coa    
+Comments:    

@@ -1,0 +1,23 @@
+calculate string code|1
+start compounds filename|Input/StartCompounds.dat
+operator list filename|Input/AllOperators(Forward)_NoNonG.dat
+output folder|NetGen/old/
+compound header|ENTRY;NAME;STRINGCODE;FORMULA;CHARGE;FILENAME;COFACTOR;GENERATION;DATABASE_LINKS;OPERATORS
+reaction header|ENTRY;NAME;EQUATION;PATHWAY;ENZYME;DATABASE_LINKS;GENERATION;OPERATORS
+operator header|ENTRY;NAME;FILENAME;COFACTORS;COFACTOR_COEF;COMPOUNDS;REVERSE_OPERATOR;DATABASE_LINKS;REACTIONS
+rank limit|1
+carbon limit|100
+compound limit|1000000
+check kegg for compounds|1
+list termination compounds|0
+List of termination compounds|Input/TerminationCpds.dat
+switch out CoA structure with CoA atom|1
+Replace CoA psudoatoms with CoA structure in compound output|0
+generate stats file|0
+print database HTML|0
+print reaction html|0
+only react non-KEGG compounds|0
+Data to print in reaction|entry
+maximum time to run NetGen algorithm(sec)|6000000
+use spontaneous operator|0
+string code of compound for spontaneous operator|(C(HC(HC(H2)))C(O(H)C(O(H)O)))

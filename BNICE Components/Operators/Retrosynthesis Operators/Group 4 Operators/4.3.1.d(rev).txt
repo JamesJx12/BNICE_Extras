@@ -1,0 +1,32 @@
+Name: 4.3.1.d(rev)
+Reactant_description:
+0	Any
+1	Ammonia
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	2	*C W	H- 0
+1	0	2	=C-- W	=CH- 0
+2	0	1	H- 0
+3	0	2	CH2-- W	CH3- 0
+4	0	1	=O 0
+5	1	1	NH3 0
+6	1	1	H- 0
+Site_bond_electron_matrix:
+0	0	1	2	3	4	5	6
+0	0	1	0	0	0	0	0
+1	1	0	0	1	2	0	0
+2	0	0	0	1	0	0	0
+3	0	1	1	0	0	0	0
+4	0	2	0	0	0	0	0
+5	0	0	0	0	0	0	1
+6	0	0	0	0	0	1	0
+Operator_matrix:
+0	0	1	2	3	4	5	6
+0	0	0	0	0	0	0	0
+1	0	0	1	0	-2	1	0
+2	0	1	0	-1	0	0	0
+3	0	0	-1	0	1	0	0
+4	0	-2	0	1	0	0	1
+5	0	1	0	0	0	0	-1
+6	0	0	0	0	1	-1	0
+Reverse_Operator:	4.3.1.d

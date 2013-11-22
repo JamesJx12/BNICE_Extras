@@ -1,0 +1,22 @@
+Name: 5.3.2.a(rev)
+Reactant_description:
+0	Any
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description	
+0	0	3	CH--- W	CH3- 0	CH2-- W
+1	0	3	=C-- W	=CH- W	=CH2 0
+2	0	1	=O 0
+3	0	1	H- 0
+Site_bond_electron_matrix:
+0	0	1	2	3
+0	0	1	0	1
+1	1	0	2	0
+2	0	2	0	0
+3	1	0	0	0
+Operator_matrix:
+0	0	1	2	3
+0	0	1	0	-1
+1	1	0	-1	0
+2	0	-1	0	1
+3	-1	0	1	0
+Reverse_Operator:	5.3.2.a

@@ -1,0 +1,2 @@
+RightHandSide;ConstaintEquality(>,<,=);VarName|VarCoeff|VarCompartment|VarType;VarName|VarCoeff|VarCompartment|VarType
+ln(1);=;nad|1|c|LOG_CONC;nadh|-1|c|LOG_CONC

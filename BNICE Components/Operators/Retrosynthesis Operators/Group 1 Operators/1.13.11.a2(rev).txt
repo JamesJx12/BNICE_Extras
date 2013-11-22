@@ -1,0 +1,39 @@
+Name:    1.13.11.a2(rev)    
+Reactant_description:    
+0    Any    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    1    =O 0    
+1    0    1    >C= 0    
+2    0    1    -OH 0    
+3    0    3    >C= W    -CH= W    -N= W    
+4    0    3    >C= W    -CH= W    -N= W    
+5    0    3    >C= W    -CH= W    -N= W    
+6    0    3    >C= W    -CH= W    -N= W    
+7    0    3    >C= W    -CH= 0    -N= 0    
+8    0    1    =O 0    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    
+0    0    2    0    0    0    0    0    0    0    
+1    2    0    1    1    0    0    0    0    0    
+2    0    1    0    0    0    0    0    0    0    
+3    0    1    0    0    2    0    0    0    0    
+4    0    0    0    2    0    1    0    0    0    
+5    0    0    0    0    1    0    2    0    0    
+6    0    0    0    0    0    2    0    1    0    
+7    0    0    0    0    0    0    1    0    2    
+8    0    0    0    0    0    0    0    2    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    
+0    0    -2    0    0    0    0    0    0    2    
+1    -2    0    0    0    0    0    0    2    0    
+2    0    0    0    0    0    0    0    0    0    
+3    0    0    0    0    0    0    0    0    0    
+4    0    0    0    0    0    0    0    0    0    
+5    0    0    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    0    0    
+7    0    2    0    0    0    0    0    0    -2    
+8    2    0    0    0    0    0    0    -2    0    
+Products:    
+O2    Any    
+Comments:    

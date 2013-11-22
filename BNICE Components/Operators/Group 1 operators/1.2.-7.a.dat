@@ -1,0 +1,52 @@
+Name:    1.2.-7.a    
+Reactant_description:    
+0    Any,COA,ON    
+1    CO2    
+2    NADH    
+3    H+    
+Atom_descriptions:    
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description    
+0    0    2    >C= W    -CH= 0    
+1    0    1    =O 0    
+2    0    1    -S- W    
+3    1    1    =C= 0    
+4    1    1    =O 0    
+5    1    1    =O 0    
+6    2    1    >N- W    
+7    2    1    -CH= W    
+8    2    1    -CH= W    
+9    2    1    -CH2- W    
+10    2    1    -H 0    
+11    3    1    H 0    
+Site_bond_electron_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    11    
+0    0    2    1    0    0    0    0    0    0    0    0    0    
+1    2    0    0    0    0    0    0    0    0    0    0    0    
+2    1    0    0    0    0    0    0    0    0    0    0    0    
+3    0    0    0    0    2    2    0    0    0    0    0    0    
+4    0    0    0    2    0    0    0    0    0    0    0    0    
+5    0    0    0    2    0    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    1    0    0    0    0    
+7    0    0    0    0    0    0    1    0    2    0    0    0    
+8    0    0    0    0    0    0    0    2    0    1    0    0    
+9    0    0    0    0    0    0    0    0    1    0    1    0    
+10    0    0    0    0    0    0    0    0    0    1    0    0    
+11    0    0    0    0    0    0    0    0    0    0    0    0    
+Operator_matrix:    
+0    0    1    2    3    4    5    6    7    8    9    10    11    
+0    0    0    -1    1    0    0    0    0    0    0    0    0    
+1    0    0    0    0    0    0    0    0    0    0    0    0    
+2    -1    0    0    0    0    0    0    0    0    0    0    1    
+3    1    0    0    0    -1    0    0    0    0    0    0    0    
+4    0    0    0    -1    0    0    0    0    0    0    1    0    
+5    0    0    0    0    0    0    0    0    0    0    0    0    
+6    0    0    0    0    0    0    0    1    0    0    0    0    
+7    0    0    0    0    0    0    1    0    -1    0    0    0    
+8    0    0    0    0    0    0    0    -1    0    1    0    0    
+9    0    0    0    0    0    0    0    0    1    0    -1    0    
+10    0    0    0    0    1    0    0    0    0    -1    0    0    
+11    0    0    1    0    0    0    0    0    0    0    0    0    
+Reverse_Operator:    1.2.7.a    
+Products:    
+Any    NAD+    Coa    
+Comments:    
