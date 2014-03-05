@@ -1,0 +1,15 @@
+NAME;PPi;cofactor
+13
+0 0 P  [0] NoGroup 0  : {1, 1}, {2, 1}, {3, 1}, {4, 2};
+1 0 O  [0] NoGroup 0  : {0, 1}, {5, 1};
+2 0 O  [0] NoGroup 0  : {0, 1}, {9, 1};
+3 0 O  [0] NoGroup 0  : {0, 1}, {11, 1};
+4 0 O  [0] NoGroup 0  : {0, 2};
+5 0 P  [0] NoGroup 0  : {1, 1}, {6, 1}, {7, 1}, {8, 2};
+6 0 O  [0] NoGroup 0  : {5, 1}, {10, 1};
+7 0 O  [0] NoGroup 0  : {5, 1}, {12, 1};
+8 0 O  [0] NoGroup 0  : {5, 2};
+9 0 H  [0] NoGroup 0  : {2, 1};
+10 0 H  [0] NoGroup 0  : {6, 1};
+11 0 H  [0] NoGroup 0  : {3, 1};
+12 0 H  [0] NoGroup 0  : {7, 1};
