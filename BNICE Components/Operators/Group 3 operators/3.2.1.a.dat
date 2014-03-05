@@ -1,0 +1,31 @@
+Name:   3.2.1.a
+Reactant_description:
+0    Water
+1    Any
+Atom_descriptions:
+Atom_index ReactantIndex Number_alternatives Atom_description Cycle_description
+0    0    1    OH2 0
+1    0    1    -H 0
+2    1    1    --O N1;61
+3    1    1    ---CH N1;61
+4    1    1    C* N1;61
+5    1    1    --O 0
+Site_bond_electron_matrix:
+0    0    1    2    3    4    5    
+0    0    1    0    0    0    0    
+1    1    0    0    0    0    0    
+2    0    0    0    1    0    0    
+3    0    0    1    0    1    1    
+4    0    0    0    1    0    0    
+5    0    0    0    1    0    0    
+Operator_matrix:
+0    0    1    2    3    4    5    
+0    0    -1    0    1    0    0    
+1    -1    0    0    0    0    1    
+2    0    0    0    0    0    0    
+3    1    0    0    0    0    -1    
+4    0    0    0    0    0    0    
+5    0    1    0    -1    0    0    
+Products:
+Any     Any     
+Comments: Based on: pretty much all 5.1.3 rxns
